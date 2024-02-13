@@ -80,15 +80,42 @@ section {
   
 }
 
+.sectionOppet-textkort {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.half {
+    flex:1;
+    min-width: 50%;
+}
+
+@media (max-width:768px) {
+    .half{
+        min-width: 100%;
+        flex-direction: ;
+    }
+
+    .sectionOppet-textkort {
+        flex-direction: column;
+    }
+    
+}
+
 #div-bg-oppet {
     height: 250px; /* Adjust the height as needed */
     background-image: url('bg-oppet.png'); /* Replace 'header-background.jpg' with the path to your image */
-    background-size: cover; /* Cover the entire header with the image */
+    background-size:cover; /* Cover the entire header with the image */
     background-position: center; /* Center the image */
     color: #954f4f;
     position: relative;
-    margin: 0 auto;
-    width: 80%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+    border: solid 10px rgba(164, 115, 118, 0.634) ;
 
     @media (max-width: 767px) {
             width: 100%;
