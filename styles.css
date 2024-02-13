@@ -115,7 +115,8 @@ section {
     padding-left: 10px;
     padding-right: 10px;
     width: 100vw;
-    border: solid 10px rgba(164, 115, 118, 0.634) ;
+    border:10px solid rgba(243, 174, 178, 0.634) ;
+    border-radius: 1px;
 
     @media (max-width: 767px) {
             width: 100%;
