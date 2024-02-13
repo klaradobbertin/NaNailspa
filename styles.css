@@ -343,10 +343,27 @@ section {
 }
 
 .footer {
-    height: 250px; /* Adjust the height as needed */
+    height: 175px; /* Adjust the height as needed */
     width: 100vw;
     background-color: #dbb9b9;
-    
 
+
+
+}
+.social-div {
+    font-size: 20px;
+    margin: 20px;
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin: 10px;
+    padding: 5px;
+    border: solid #fff2f2;
+    border-radius: 5px;
 
 }
