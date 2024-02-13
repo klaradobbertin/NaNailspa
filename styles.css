@@ -342,3 +342,11 @@ section {
     }
 }
 
+.footer {
+    height: 250px; /* Adjust the height as needed */
+    width: 100vw;
+    background-color: #dbb9b9;
+    
+
+
+}
