@@ -59,7 +59,7 @@ section {
     background-position: center; /* Adjust this based on your preference */
     background-repeat: no-repeat;
     margin: 0 auto;
-    height: 500px;
+    height: 700px;
 
     /* Additional styles for the div can be added here */
 
@@ -68,7 +68,7 @@ section {
 /* Responsive adjustments */
 @media (max-width: 800px) {
     #div-bg {
-        height: 225px; /* Adjust the height for smaller screens */
+        height: 300px; /* Adjust the height for smaller screens */
     }
    
 }
@@ -115,7 +115,7 @@ section {
     padding-left: 10px;
     padding-right: 10px;
     width: 100vw;
-    border:10px solid rgba(243, 174, 178, 0.634) ;
+    
     border-radius: 1px;
 
     @media (max-width: 767px) {
@@ -260,8 +260,9 @@ section {
   #bg-inspo-fransar {
     background-image: url(upd_fransar.png);
     padding: 5px;
-    background-size: cover; /* Cover the entire header with the image */
+    background-size: contain; /* Cover the entire header with the image */
     background-position: center; /* Center the image */
+
 
 
 }
@@ -282,7 +283,7 @@ section {
   #bg-inspo-fargombre {
     background-image: url(farg_ombre.png);
     padding: 5px;
-    background-size: cover; /* Cover the entire header with the image */
+    background-size: contain; /* Cover the entire header with the image */
     background-position: center; /* Center the image */
 
 
@@ -304,7 +305,7 @@ section {
 #bg-inspo-fransk {
     background-image: url(fransk_ombre.png);
     padding: 5px;
-    background-size: cover; /* Cover the entire header with the image */
+    background-size: contain; /* Cover the entire header with the image */
     background-position: center; /* Center the image */
 
 
@@ -327,7 +328,7 @@ section {
 #bg-inspo-design {
     background-image: url(design.png);
     padding: 5px;
-    background-size: cover; /* Cover the entire header with the image */
+    background-size: contain; /* Cover the entire header with the image */
     background-position: center; /* Center the image */
 
 
@@ -351,7 +352,7 @@ section {
 #bg-inspo-pedikyr {
     background-image: url(pedikyr.png);
     padding: 5px;
-    background-size: cover; /* Cover the entire header with the image */
+    background-size: contain; /* Cover the entire header with the image */
     background-position: center; /* Center the image */
 
 
@@ -380,18 +381,19 @@ section {
 }
 .social-div {
     font-size: 20px;
-    margin: 20px;
-    padding:20px ;
+    margin: 5px;
+    padding:10px ;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
 }
 
 .social-icon {
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     border: solid #fff2f2;
-    border-radius: 5px;
-
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
 }
